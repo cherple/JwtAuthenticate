@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.4">
+<file name="E:\workspace\permitManager\permitMgrService-master\src\test\java\com\example\historical\HistoricalApplicationTests.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\test\java\com\example\historical\controller\CrudControllerTest.java">
+<error line="31" severity="warning" message="Wrong lexicographical order for &apos;org.slf4j.Logger&apos; import. Should be before &apos;org.springframework.test.web.servlet.MvcResult&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="32" severity="warning" message="Wrong lexicographical order for &apos;org.slf4j.LoggerFactory&apos; import. Should be before &apos;org.springframework.test.web.servlet.MvcResult&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\test\java\com\example\historical\controller\PermitControllerTest.java">
+<error line="8" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Dateslot&apos; import. Should be before &apos;com.example.historical.model.Poc&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Coordinate&apos; import. Should be before &apos;com.example.historical.model.Timeslot&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="15" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.repository.DateslotRepository&apos; import. Should be before &apos;com.example.historical.repository.PocRepository&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="17" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.repository.CoordinateRepository&apos; import. Should be before &apos;com.example.historical.repository.TimeslotRepository&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="31" severity="warning" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;org.springframework.http.MediaType&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="33" severity="warning" message="Import statement for &apos;org.springframework.restdocs.mockmvc.MockMvcRestDocumentation.document&apos; is in the wrong order. Should be in the &apos;STATIC&apos; group, expecting not assigned imports on this line." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="34" severity="warning" message="Import statement for &apos;org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post&apos; is in the wrong order. Should be in the &apos;STATIC&apos; group, expecting not assigned imports on this line." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="35" severity="warning" message="Import statement for &apos;org.springframework.test.web.servlet.result.MockMvcResultMatchers.status&apos; is in the wrong order. Should be in the &apos;STATIC&apos; group, expecting not assigned imports on this line." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="88" severity="warning" message="Line is longer than 120 characters (found 122)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\test\java\com\example\historical\integration\PermitIntegrationTest.java">
+<error line="8" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Coordinate&apos; import. Should be before &apos;com.example.historical.model.Permit&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="12" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.repository.CoordinateRepository&apos; import. Should be before &apos;com.example.historical.repository.PermitRepository&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="28" severity="warning" message="Import statement for &apos;org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post&apos; is in the wrong order. Should be in the &apos;STATIC&apos; group, expecting not assigned imports on this line." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="29" severity="warning" message="Import statement for &apos;org.springframework.test.web.servlet.result.MockMvcResultMatchers.status&apos; is in the wrong order. Should be in the &apos;STATIC&apos; group, expecting not assigned imports on this line." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="49" severity="warning" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\test\java\com\example\historical\repository\CoordinateRepositoryTest.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\test\java\com\example\historical\repository\CrudRepositoryTest.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\test\java\com\example\historical\repository\DateslotRepositoryTest.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\test\java\com\example\historical\repository\PermitRepositoryTest.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\test\java\com\example\historical\repository\PocRepositoryTest.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\test\java\com\example\historical\repository\SlotRepositoryTest.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\test\java\com\example\historical\repository\TimeslotRepositoryTest.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\test\java\com\example\historical\util\TestEntities.java">
+<error line="6" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Dateslot&apos; import. Should be before &apos;com.example.historical.model.Permit&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Poc&apos; import. Should be before &apos;com.example.historical.model.Timeslot&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Coordinate&apos; import. Should be before &apos;com.example.historical.model.Timeslot&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="13" severity="warning" message="Wrong lexicographical order for &apos;java.util.Arrays&apos; import. Should be before &apos;java.util.Date&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="30" severity="warning" message="Line is longer than 120 characters (found 147)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="34" severity="warning" message="Line is longer than 120 characters (found 171)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="35" severity="warning" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 37." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="37" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="54" severity="warning" message="Line is longer than 120 characters (found 167)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="56" severity="warning" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="56" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="73" severity="warning" message="Line is longer than 120 characters (found 191)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+</checkstyle>

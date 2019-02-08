@@ -1,0 +1,8 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Content-Length: 1362
+
+{"id":1,"liveId":2,"zone":"Zone1","dateslots":[{"id":null,"liveId":2,"date":1549528884656,"type":"SINGLE","startDate":1549528884656,"endDate":1549528884656,"timeslots":[{"id":null,"liveId":2,"startTime":1548232477956,"endTime":1548232504617,"altitude":0.0},{"id":null,"liveId":2,"startTime":1548232477956,"endTime":1548232504617,"altitude":0.0},{"id":null,"liveId":2,"startTime":1548232477956,"endTime":1548232504617,"altitude":0.0}]},{"id":null,"liveId":2,"date":1549528884656,"type":"SINGLE","startDate":1549528884656,"endDate":1549528884656,"timeslots":[{"id":null,"liveId":2,"startTime":1548232477956,"endTime":1548232504617,"altitude":0.0},{"id":null,"liveId":2,"startTime":1548232477956,"endTime":1548232504617,"altitude":0.0},{"id":null,"liveId":2,"startTime":1548232477956,"endTime":1548232504617,"altitude":0.0}]}],"location":"Location1","activityDesc":"DESC1","coordinates":[{"id":null,"liveId":8,"seqNum":1,"lat":1.1,"lon":1.2},{"id":null,"liveId":9,"seqNum":2,"lat":1.3,"lon":1.4}],"droneModel":"MODEL1","infoParty":"c205","actionParty":"c209","kcq":"KCQ1","refNum":"REF1","remarks":"REM1","account":{"id":null,"liveId":null,"permits":null},"pocs":[{"id":null,"liveId":4,"name":"John","company":"Mohawk Company","number":12345678},{"id":null,"liveId":5,"name":"Peter","company":"Ninja Company","number":88889999}],"editable":true,"string":"TRAINING"}
+----

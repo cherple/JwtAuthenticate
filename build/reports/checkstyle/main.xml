@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.4">
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\Application.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\config\AuditorAwareImpl.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\config\BeanUtil.java">
+<error line="8" severity="warning" message="Summary javadoc is missing." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\config\JpaConfig.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\config\PermitEntityListener.java">
+<error line="9" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Permit&apos; import. Should be before &apos;javax.transaction.Transactional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.PermitHistory&apos; import. Should be before &apos;javax.transaction.Transactional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="11" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.enumeration.Action&apos; import. Should be before &apos;javax.transaction.Transactional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="12" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.websoc.PermitUpdates&apos; import. Should be before &apos;javax.transaction.Transactional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="17" severity="warning" message="Import statement for &apos;javax.transaction.Transactional.TxType.MANDATORY&apos; is in the wrong order. Should be in the &apos;STATIC&apos; group, expecting not assigned imports on this line." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="18" severity="warning" message="Import statement for &apos;com.example.historical.enumeration.Action.*&apos; is in the wrong order. Should be in the &apos;STATIC&apos; group, expecting not assigned imports on this line." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="18" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - com.example.historical.enumeration.Action.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="20" severity="warning" message="Summary javadoc is missing." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="55" severity="warning" message="Comment has incorrect indentation level 0, expected is 8, indentation should be the same level as line 48." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\config\WebConfig.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\config\WebSecurityConfig.java">
+<error line="19" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.security.JwtAuthenticationEntryPoint&apos; import. Should be before &apos;org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="20" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.security.JwtAuthorizationTokenFilter&apos; import. Should be before &apos;org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="21" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.security.service.JwtAccountDetailsService&apos; import. Should be before &apos;org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="44" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="81" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 7, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\controller\AuthorityController.java">
+<error line="5" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.config.WebConfig&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Authority&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.repository.AuthorityRepository&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="13" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - org.springframework.web.bind.annotation.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="37" column="8" severity="warning" message="Unused @param tag for &apos;permit&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="43" severity="warning" message="&apos;public&apos; has incorrect indentation level 4, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\controller\CoordinateController.java">
+<error line="5" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Coordinate&apos; import. Should be before &apos;com.example.historical.model.Permit&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="12" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - org.springframework.web.bind.annotation.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="14" severity="warning" message="Wrong lexicographical order for &apos;java.util.Optional&apos; import. Should be before &apos;org.springframework.web.bind.annotation.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="47" severity="warning" message="&apos;public&apos; has incorrect indentation level 4, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\controller\CrudController.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\controller\DateslotController.java">
+<error line="6" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Dateslot&apos; import. Should be before &apos;com.example.historical.model.Permit&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="14" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - org.springframework.web.bind.annotation.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="16" severity="warning" message="Wrong lexicographical order for &apos;java.util.Optional&apos; import. Should be before &apos;org.springframework.web.bind.annotation.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="40" column="8" severity="warning" message="Unused @param tag for &apos;permit&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="46" severity="warning" message="&apos;public&apos; has incorrect indentation level 4, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\controller\PermitController.java">
+<error line="4" severity="warning" message="Wrong lexicographical order for &apos;java.util.ArrayList&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="5" severity="warning" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.config.WebConfig&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Account&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Permit&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Poc&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="11" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Dateslot&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="12" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Timeslot&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="13" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Coordinate&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="14" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.repository.AccountRepository&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="15" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.repository.PermitRepository&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="16" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.repository.PocRepository&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="17" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.repository.DateslotRepository&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="18" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.repository.TimeslotRepository&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="19" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.repository.CoordinateRepository&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="25" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - org.springframework.web.bind.annotation.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="70" severity="warning" message="&apos;public&apos; has incorrect indentation level 4, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="78" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 6, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="79" severity="warning" message="&apos;if&apos; has incorrect indentation level 6, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="80" severity="warning" message="&apos;if&apos; child has incorrect indentation level 10, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="81" severity="warning" message="&apos;if&apos; has incorrect indentation level 10, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="82" severity="warning" message="&apos;if&apos; child has incorrect indentation level 14, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="83" severity="warning" message="&apos;if rcurly&apos; has incorrect indentation level 10, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="84" severity="warning" message="&apos;else&apos; child has incorrect indentation level 14, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="85" severity="warning" message="&apos;else&apos; child has incorrect indentation level 14, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="86" severity="warning" message="&apos;else rcurly&apos; has incorrect indentation level 10, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="87" severity="warning" message="&apos;if rcurly&apos; has incorrect indentation level 6, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="90" severity="warning" message="Line is longer than 120 characters (found 123)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="115" column="42" severity="warning" message="&apos;(&apos; is followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="115" column="59" severity="warning" message="&apos;)&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="142" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="168" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="169" severity="warning" message="&apos;public&apos; has incorrect indentation level 4, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\controller\PocController.java">
+<error line="5" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.config.WebConfig&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Account&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Permit&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Poc&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.repository.AccountRepository&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.repository.PocRepository&apos; import. Should be before &apos;java.util.Optional&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="16" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - org.springframework.web.bind.annotation.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="40" column="8" severity="warning" message="Unused @param tag for &apos;permit&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="46" severity="warning" message="&apos;public&apos; has incorrect indentation level 4, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\controller\SlotController.java">
+<error line="14" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - org.springframework.web.bind.annotation.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="16" severity="warning" message="Wrong lexicographical order for &apos;java.util.Optional&apos; import. Should be before &apos;org.springframework.web.bind.annotation.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="40" column="8" severity="warning" message="Unused @param tag for &apos;permit&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="46" severity="warning" message="&apos;public&apos; has incorrect indentation level 4, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\controller\TimeslotController.java">
+<error line="14" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - org.springframework.web.bind.annotation.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="16" severity="warning" message="Wrong lexicographical order for &apos;java.util.Optional&apos; import. Should be before &apos;org.springframework.web.bind.annotation.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="40" column="8" severity="warning" message="Unused @param tag for &apos;permit&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="46" severity="warning" message="&apos;public&apos; has incorrect indentation level 4, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\enumeration\Action.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\enumeration\ReportingType.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\model\Account.java">
+<error line="5" severity="warning" message="Wrong lexicographical order for &apos;java.util.ArrayList&apos; import. Should be before &apos;java.util.List&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="16" severity="warning" message="Wrong lexicographical order for &apos;javax.persistence.ManyToMany&apos; import. Should be before &apos;javax.persistence.OneToMany&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="29" severity="warning" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 30." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="34" severity="warning" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 35." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="39" severity="warning" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 40." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="44" severity="warning" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 45." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="49" severity="warning" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 50." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="54" severity="warning" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 55." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="59" severity="warning" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 60." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="76" severity="warning" message="Line is longer than 120 characters (found 157)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="76" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\model\Auditable.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\model\Authority.java">
+<error line="3" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - javax.persistence.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="5" severity="warning" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;javax.validation.constraints.NotNull&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="warning" message="Wrong lexicographical order for &apos;java.util.ArrayList&apos; import. Should be before &apos;javax.validation.constraints.NotNull&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" column="44" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" severity="warning" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 14." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="24" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\model\AuthorityName.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\model\Coordinate.java">
+<error line="3" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - javax.persistence.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="5" severity="warning" message="Wrong lexicographical order for &apos;com.fasterxml.jackson.annotation.JsonIgnore&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="warning" message="Wrong lexicographical order for &apos;com.fasterxml.jackson.annotation.JsonIgnoreProperties&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" column="45" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="12" column="57" severity="warning" message="WhitespaceAround: &apos;=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="12" column="58" severity="warning" message="WhitespaceAround: &apos;=&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="25" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\model\Dateslot.java">
+<error line="5" severity="warning" message="&apos;package&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="8" severity="warning" message="Wrong lexicographical order for &apos;java.util.ArrayList&apos; import. Should be before &apos;java.util.Date&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="11" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - javax.persistence.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="13" severity="warning" message="Wrong lexicographical order for &apos;com.fasterxml.jackson.annotation.JsonIgnore&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="14" severity="warning" message="Wrong lexicographical order for &apos;com.fasterxml.jackson.annotation.JsonIgnoreProperties&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="17" column="43" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="20" column="57" severity="warning" message="WhitespaceAround: &apos;=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="20" column="58" severity="warning" message="WhitespaceAround: &apos;=&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="34" column="47" severity="warning" message="WhitespaceAround: &apos;=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="34" column="48" severity="warning" message="WhitespaceAround: &apos;=&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="37" column="22" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="41" severity="warning" message="Line is longer than 120 characters (found 123)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="41" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="82" column="41" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\model\Identifiable.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\model\Permit.java">
+<error line="5" severity="warning" message="Wrong lexicographical order for &apos;java.util.Arrays&apos; import. Should be before &apos;java.util.Date&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - javax.persistence.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="12" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.config.PermitEntityListener&apos; import. Should be before &apos;org.springframework.data.geo.Point&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="26" column="47" severity="warning" message="WhitespaceAround: &apos;=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="26" column="48" severity="warning" message="WhitespaceAround: &apos;=&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="35" column="47" severity="warning" message="WhitespaceAround: &apos;=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="35" column="48" severity="warning" message="WhitespaceAround: &apos;=&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="53" column="47" severity="warning" message="WhitespaceAround: &apos;=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="53" column="48" severity="warning" message="WhitespaceAround: &apos;=&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="62" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="111" severity="warning" message="Line is longer than 120 characters (found 172)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="155" column="45" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="219" column="31" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\model\PermitHistory.java">
+<error line="7" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - javax.persistence.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="7" severity="warning" message="Wrong lexicographical order for &apos;javax.persistence.*&apos; import. Should be before &apos;org.springframework.data.jpa.domain.support.AuditingEntityListener&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="warning" message="Wrong lexicographical order for &apos;java.util.Date&apos; import. Should be before &apos;org.springframework.data.jpa.domain.support.AuditingEntityListener&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" severity="warning" message="Import statement for &apos;javax.persistence.EnumType.STRING&apos; is in the wrong order. Should be in the &apos;STATIC&apos; group, expecting not assigned imports on this line." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="11" severity="warning" message="Import statement for &apos;javax.persistence.TemporalType.TIMESTAMP&apos; is in the wrong order. Should be in the &apos;STATIC&apos; group, expecting not assigned imports on this line." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="13" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.enumeration.Action&apos; import. Should be before &apos;org.springframework.data.jpa.domain.support.AuditingEntityListener&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="14" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Permit&apos; import. Should be before &apos;org.springframework.data.jpa.domain.support.AuditingEntityListener&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="16" severity="warning" message="Summary javadoc is missing." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\model\Poc.java">
+<error line="3" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - javax.persistence.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="5" severity="warning" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="warning" message="Wrong lexicographical order for &apos;java.util.ArrayList&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="warning" message="Wrong lexicographical order for &apos;com.fasterxml.jackson.annotation.JsonIgnore&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="warning" message="Wrong lexicographical order for &apos;com.fasterxml.jackson.annotation.JsonIgnoreProperties&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="28" column="57" severity="warning" message="WhitespaceAround: &apos;=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="28" column="58" severity="warning" message="WhitespaceAround: &apos;=&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="35" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="53" severity="warning" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 55." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\model\Slot.java">
+<error line="5" severity="warning" message="&apos;package&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="8" severity="warning" message="Wrong lexicographical order for &apos;java.util.Arrays&apos; import. Should be before &apos;java.util.Date&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="11" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - javax.persistence.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="14" column="39" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="17" column="57" severity="warning" message="WhitespaceAround: &apos;=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="17" column="58" severity="warning" message="WhitespaceAround: &apos;=&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="29" column="18" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="33" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="75" severity="warning" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 77." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\model\Timeslot.java">
+<error line="5" severity="warning" message="&apos;package&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="7" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - javax.persistence.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="8" severity="warning" message="Wrong lexicographical order for &apos;java.util.ArrayList&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="warning" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="11" severity="warning" message="Wrong lexicographical order for &apos;com.fasterxml.jackson.annotation.JsonIgnore&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="12" severity="warning" message="Wrong lexicographical order for &apos;com.fasterxml.jackson.annotation.JsonIgnoreProperties&apos; import. Should be before &apos;javax.persistence.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="15" column="43" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="18" column="59" severity="warning" message="WhitespaceAround: &apos;=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="18" column="60" severity="warning" message="WhitespaceAround: &apos;=&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="27" column="22" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="31" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\model\User.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\repository\AccountRepository.java">
+<error line="9" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="9" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="10" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="11" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="11" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\repository\AuthorityRepository.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\repository\CoordinateRepository.java">
+<error line="16" column="46" severity="warning" message="Parameter name &apos;Id&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\repository\CrudRepository.java">
+<error line="6" severity="warning" message="Wrong lexicographical order for &apos;org.springframework.data.jpa.repository.JpaRepository&apos; import. Should be before &apos;org.springframework.data.repository.NoRepositoryBean&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\repository\DateslotRepository.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\repository\PermitHistoryRepository.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\repository\PermitRepository.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\repository\PocRepository.java">
+<error line="14" severity="warning" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\repository\SlotRepository.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\repository\TimeslotRepository.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\rest\Person.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\rest\PersonRestService.java">
+<error line="8" severity="warning" message="Wrong lexicographical order for &apos;java.util.ArrayList&apos; import. Should be before &apos;org.springframework.web.bind.annotation.RestController&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="warning" message="Wrong lexicographical order for &apos;java.util.List&apos; import. Should be before &apos;org.springframework.web.bind.annotation.RestController&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="26" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\security\JwtAccount.java">
+<error line="9" severity="warning" message="Wrong lexicographical order for &apos;com.fasterxml.jackson.annotation.JsonIgnore&apos; import. Should be before &apos;org.springframework.security.core.userdetails.UserDetails&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="24" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="25" severity="warning" message="&apos;Long&apos; has incorrect indentation level 10, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="26" severity="warning" message="&apos;Long&apos; has incorrect indentation level 10, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="27" severity="warning" message="&apos;String&apos; has incorrect indentation level 10, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="28" severity="warning" message="&apos;String&apos; has incorrect indentation level 10, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="29" severity="warning" message="&apos;String&apos; has incorrect indentation level 10, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="30" severity="warning" message="&apos;String&apos; has incorrect indentation level 10, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="31" severity="warning" message="&apos;String&apos; has incorrect indentation level 10, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="32" severity="warning" message="&apos;boolean&apos; has incorrect indentation level 10, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="33" severity="warning" message="&apos;Date&apos; has incorrect indentation level 10, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\security\JwtAccountFactory.java">
+<error line="8" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Authority&apos; import. Should be before &apos;org.springframework.security.core.authority.SimpleGrantedAuthority&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Account&apos; import. Should be before &apos;org.springframework.security.core.authority.SimpleGrantedAuthority&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="16" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="18" column="9" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="19" column="9" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="20" column="9" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="21" column="9" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" column="9" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="23" column="9" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="24" column="9" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\security\JwtAuthenticationEntryPoint.java">
+<error line="7" severity="warning" message="Wrong lexicographical order for &apos;javax.servlet.http.HttpServletRequest&apos; import. Should be before &apos;org.springframework.stereotype.Component&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="warning" message="Wrong lexicographical order for &apos;javax.servlet.http.HttpServletResponse&apos; import. Should be before &apos;org.springframework.stereotype.Component&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="warning" message="Wrong lexicographical order for &apos;java.io.IOException&apos; import. Should be before &apos;org.springframework.stereotype.Component&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" severity="warning" message="Wrong lexicographical order for &apos;java.io.Serializable&apos; import. Should be before &apos;org.springframework.stereotype.Component&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\security\JwtAuthenticationRequest.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\security\JwtAuthorizationTokenFilter.java">
+<error line="9" severity="warning" message="Wrong lexicographical order for &apos;io.jsonwebtoken.ExpiredJwtException&apos; import. Should be before &apos;javax.servlet.http.HttpServletResponse&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="30" severity="warning" message="Line is longer than 120 characters (found 150)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="30" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="37" severity="warning" message="Line is longer than 120 characters (found 151)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="61" severity="warning" message="Line is longer than 120 characters (found 125)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="65" severity="warning" message="Line is longer than 120 characters (found 122)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="68" severity="warning" message="Line is longer than 120 characters (found 158)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\security\JwtTokenUtil.java">
+<error line="9" severity="warning" message="Wrong lexicographical order for &apos;edu.umd.cs.findbugs.annotations.SuppressFBWarnings&apos; import. Should be before &apos;java.util.function.Function&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" severity="warning" message="Wrong lexicographical order for &apos;io.jsonwebtoken.Claims&apos; import. Should be before &apos;java.util.function.Function&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="11" severity="warning" message="Wrong lexicographical order for &apos;io.jsonwebtoken.Clock&apos; import. Should be before &apos;java.util.function.Function&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="12" severity="warning" message="Wrong lexicographical order for &apos;io.jsonwebtoken.Jwts&apos; import. Should be before &apos;java.util.function.Function&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="13" severity="warning" message="Wrong lexicographical order for &apos;io.jsonwebtoken.SignatureAlgorithm&apos; import. Should be before &apos;java.util.function.Function&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="14" severity="warning" message="Wrong lexicographical order for &apos;io.jsonwebtoken.impl.DefaultClock&apos; import. Should be before &apos;java.util.function.Function&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="90" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="96" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="110" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="119" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\security\controller\AccountRestController.java">
+<error line="12" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.security.JwtTokenUtil&apos; import. Should be before &apos;org.springframework.web.bind.annotation.RestController&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="13" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.security.JwtAccount&apos; import. Should be before &apos;org.springframework.web.bind.annotation.RestController&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="28" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\security\controller\AuthenticationException.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\security\controller\AuthenticationRestController.java">
+<error line="22" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.security.JwtAuthenticationRequest&apos; import. Should be before &apos;org.springframework.web.bind.annotation.RestController&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="23" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.security.JwtTokenUtil&apos; import. Should be before &apos;org.springframework.web.bind.annotation.RestController&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="24" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.security.JwtAccount&apos; import. Should be before &apos;org.springframework.web.bind.annotation.RestController&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="25" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.security.service.JwtAuthenticationResponse&apos; import. Should be before &apos;org.springframework.web.bind.annotation.RestController&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="43" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="44" severity="warning" message="Line is longer than 120 characters (found 148)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="56" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\security\controller\MethodProtectedRestController.java">
+<error line="14" severity="warning" message="Line is longer than 120 characters (found 130)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="15" severity="warning" message="Line is longer than 120 characters (found 125)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\security\service\JwtAccountDetailsService.java">
+<error line="8" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.Account&apos; import. Should be before &apos;org.springframework.stereotype.Service&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.security.JwtAccountFactory&apos; import. Should be before &apos;org.springframework.stereotype.Service&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.repository.AccountRepository&apos; import. Should be before &apos;org.springframework.stereotype.Service&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\security\service\JwtAuthenticationResponse.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\util\JsonUtil.java">
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\websoc\PermitUpdates.java">
+<error line="4" severity="warning" message="Wrong lexicographical order for &apos;org.springframework.beans.factory.annotation.Autowired&apos; import. Should be before &apos;org.springframework.messaging.simp.SimpMessagingTemplate&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="warning" message="Wrong lexicographical order for &apos;org.springframework.stereotype.Component&apos; import. Should be before &apos;org.springframework.stereotype.Controller&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="warning" message="Wrong lexicographical order for &apos;com.example.historical.model.PermitHistory&apos; import. Should be before &apos;org.springframework.stereotype.Controller&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" severity="warning" message="Summary javadoc is missing." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="17" severity="warning" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 19." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="27" severity="warning" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 29." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="29" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="E:\workspace\permitManager\permitMgrService-master\src\main\java\com\example\historical\websoc\WebSocketConfig.java">
+</file>
+</checkstyle>

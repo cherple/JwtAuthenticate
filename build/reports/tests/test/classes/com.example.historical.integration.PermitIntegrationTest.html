@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.example.historical.integration.PermitIntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.example.historical.integration.PermitIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.historical.integration.html">com.example.historical.integration</a> &gt; PermitIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.691s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testCreatePermitsWithDuplicateAccount</td>
+<td class="success">0.691s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2019-02-08 15:29:13.683  INFO 6760 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.historical.integration.PermitIntegrationTest], using SpringBootContextLoader
+2019-02-08 15:29:13.683  INFO 6760 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.historical.integration.PermitIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-02-08 15:29:13.684  INFO 6760 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.historical.integration.PermitIntegrationTest]: PermitIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-02-08 15:29:13.689  INFO 6760 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.historical.Application for test class com.example.historical.integration.PermitIntegrationTest
+2019-02-08 15:29:13.691  INFO 6760 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-02-08 15:29:13.691  INFO 6760 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@21caa1dd, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@32360996, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3ed94960, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5f60c34b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2b504533, org.springframework.test.context.transaction.TransactionalTestExecutionListener@29a89376, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5dce4d6a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4edb703, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2dbd0370, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@40e30692, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6fe9a6f9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@65551a8]
+2019-02-08 15:29:13.701  INFO 6760 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2019-02-08 15:29:13.701  INFO 6760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2019-02-08 15:29:13.717  INFO 6760 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 16 ms
+2019-02-08 15:29:13.894 DEBUG 6760 --- [    Test worker] c.e.h.controller.AuthorityController     : create() with body com.example.historical.model.Authority@61cc322f
+2019-02-08 15:29:14.026 DEBUG 6760 --- [    Test worker] c.e.h.controller.AuthorityController     : create() with body com.example.historical.model.Authority@4782c90c
+2019-02-08 15:29:14.042 DEBUG 6760 --- [    Test worker] c.e.h.controller.PermitController        : create() with body com.example.historical.model.Permit@3bc1e88
+2019-02-08 15:29:14.064  INFO 6760 --- [    Test worker] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-02-08 15:29:14.313 DEBUG 6760 --- [    Test worker] c.e.h.controller.PermitController        : create() with body com.example.historical.model.Permit@5c764098
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.1.1</a> at Feb 8, 2019 3:29:14 PM</p>
+</div>
+</div>
+</body>
+</html>

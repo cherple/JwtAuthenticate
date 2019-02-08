@@ -1,0 +1,4 @@
+[source,options="nowrap"]
+----
+{"id":1,"liveId":2,"zone":"Zone1","location":"Location1","activityType":"TRAINING","activityDesc":"DESC1","droneModel":"MODEL1","infoParty":"c205","actionParty":"c209","kcq":"KCQ1","refNum":"REF1","remarks":"REM1","account":{"id":null,"liveId":null,"tracks":null},"poc1":{"id":null,"liveId":1,"name":"Name1","company":"Company1","number":1234,"tracks":[]}}
+----
